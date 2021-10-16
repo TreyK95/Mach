@@ -132,12 +132,13 @@ nav .active {
 .featured_profile img {
   height: 20em;
   width: 25em;
+  border-radius: 50rem;
 }
 .content img {
   margin: 0 5px;
   height: 10em;
   width: 20em;
-  /* border-radius: 2em 2em 2em 2em; */
+  border-radius: 2em 2em 2em 2em;
   padding-bottom: 1em;
   padding-right: 2em;
 }
