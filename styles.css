@@ -353,6 +353,7 @@ html {
   position: relative;
   overflow: hidden;
   transition: box-shadow 0.5s;
+  border-radius: 0.5rem;
 }
 .project:hover {
   box-shadow: 1rem 1rem 1rem #777;
@@ -399,11 +400,24 @@ html {
   position: absolute;
   bottom: -5rem;
   transition: bottom 0.3s;
+  border-radius: 3rem;
+
+  text-decoration: none;
+  border: 2px solid #fff;
+  border-radius: 50em;
+  color: #000;
+  padding: 15px 30px;
+  margin: 0 8px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
 }
 
 .project:hover .project-link {
   bottom: 5rem;
   transition: bottom 0.3s 0.3s;
+  background-color: #fff;
+  color: #000;
 }
 @media (max-width: 1200px) {
   .services {
